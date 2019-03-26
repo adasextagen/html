@@ -1,0 +1,97 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none
+}
+
+/* 
+font-family: 'Germania One', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2, h3 {
+  font-family: 'Germania One', cursive;
+  font-size: 32px;
+}
+
+a{
+  color: #336699;
+}
+
+h1, h2, h3, p{
+  margin-bottom: 16px;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header{
+  padding: 32px 0;
+  margin-bottom: 32px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.header nav {
+  float:right;
+}
+
+.header .logo {
+  float: left;
+}
+
+.header .mobile-menu{
+  float: left;
+}
+
+.header nav ul {
+  float: left;
+}
+
+.header nav ul li{
+  display: block;
+  float:left;
+  margin-left: 16px;
+}
+
+.content{
+  width: 65%;
+  float: left;
+}
+
+.side-bar{
+  width: 30%;
+  float: right;
+}
+
+.footer {
+  padding: 32px 0;
+  background-color: #333;
+  margin-top: 32px;
+}
