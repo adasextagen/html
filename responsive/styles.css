@@ -22,7 +22,7 @@ time, mark, audio, video {
 }
 
 /* 
-font-family: 'Germania One', cursive;
+font-family: 'Josefin Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
 
@@ -33,7 +33,7 @@ body{
 }
 
 h1, h2, h3 {
-  font-family: 'Germania One', cursive;
+  font-family: "Josefin Sans";
   font-size: 32px;
 }
 
@@ -105,5 +105,19 @@ h1, h2, h3, p{
 @media only screen and (max-width: 600px) {
   .content, .side-bar {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header nav ul {
+    display: none;
+  }
+  .header .mobile-menu{
+    display: flex;
+    float: left;
+  }
+  h1, h2, h3{
+    display: inline;
+    line-height: 38px;
   }
 }
