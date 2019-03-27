@@ -35,6 +35,7 @@ body{
 h1, h2, h3 {
   font-family: "Josefin Sans";
   font-size: 32px;
+  line-height: 30px;
 }
 
 a{
@@ -119,5 +120,10 @@ h1, h2, h3, p{
   h1, h2, h3{
     display: inline;
     line-height: 38px;
+  }
+}
+@media only screen and (min-width: 1000px){
+  .mobile-menu {
+    display: none;
   }
 }
