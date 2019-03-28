@@ -87,13 +87,26 @@ h1, h2, h3, p{
 }
 
 .content{
-  width: 65%;
-  float: left;
+  width: 35%;
+  float: right;
+  background-color: aquamarine;
 }
 
 .side-bar{
-  width: 30%;
+  width: 35%;
   float: right;
+  background-color: antiquewhite;
+}
+.content2{
+  width: 15%;
+  float: left;
+  background-color: #ccc;
+}
+
+.side-bar2{
+  width: 15%;
+  float: left;
+  background-color: #336699;
 }
 
 .footer {
@@ -107,3 +120,17 @@ h1, h2, h3, p{
     width: 100%;
   }
 }
+
+@media all and (max-width: 1690px) {
+
+}
+
+@media all and (max-width:1280px){
+
+}
+
+@media all and (max-width: 736px) {
+
+}
+
+@media all and (max-width:480px){}
