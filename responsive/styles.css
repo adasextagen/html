@@ -101,9 +101,3 @@ h1, h2, h3, p{
   background-color: #333;
   margin-top: 32px;
 }
-
-@media only screen and (max-width: 600px) {
-  .content, .side-bar {
-    width: 100%;
-  }
-}
