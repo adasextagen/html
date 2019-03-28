@@ -74,7 +74,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display: none;
 }
 
 .header nav ul {
@@ -108,6 +108,7 @@ h1, h2, h3, p{
     width: 100%;
   }
 
+<<<<<<< HEAD
   h1{
     font-size: 24px;
   }
@@ -116,4 +117,20 @@ h1, h2, h3, p{
     display: none;
   }
 
+=======
+  .header .mobile-menu{
+    float: left;
+    display: block;
+  }
+
+  .header nav ul {
+    display: none;
+  }
+
+  .footer ul li{
+    display: block;
+    float:left;
+    margin-left: 16px;
+  }
+>>>>>>> c36136f052ebcfb8591022be4596271d27d067a2
 }
