@@ -100,8 +100,6 @@ h1, h2, h3, p{
   padding: 32px 0;
   background-color: #333;
   margin-top: 32px;
-<<<<<<< HEAD
-=======
 }
 
 @media only screen and (max-width: 600px) {
@@ -123,5 +121,4 @@ h1, h2, h3, p{
     float:left;
     margin-left: 16px;
   }
->>>>>>> 14c9302c221a6f5c5fdb19409f3023aaa196b84e
 }
