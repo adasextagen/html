@@ -106,4 +106,16 @@ h1, h2, h3, p{
   .content, .side-bar {
     width: 100%;
   }
+
+  ul,menu{
+    display:none;
+    }
+  
+  p{
+    text-align: justify;
+  }
+
+  h1,h3{
+    text-align: center;
+  }
 }
