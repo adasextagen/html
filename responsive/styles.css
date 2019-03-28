@@ -106,4 +106,9 @@ h1, h2, h3, p{
   .content, .side-bar {
     width: 100%;
   }
+  
+  .header nav ul{
+    display:none;
+  }
+
 }
