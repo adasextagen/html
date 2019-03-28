@@ -26,6 +26,9 @@ font-family: 'Germania One', cursive;
 font-family: 'Raleway', sans-serif;
 */
 
+
+
+
 body{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -33,7 +36,7 @@ body{
 }
 
 h1, h2, h3 {
-  font-family: 'Germania One', cursive;
+  font-family:  'ZCOOL XiaoWei', serif;
   font-size: 32px;
 }
 
@@ -73,7 +76,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display:none;
 }
 
 .header nav ul {
@@ -105,5 +108,29 @@ h1, h2, h3, p{
 @media only screen and (max-width: 600px) {
   .content, .side-bar {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  nav ul {
+    display:none;
+  }
+
+  .header .mobile-menu {
+    display:block;
+    
+  }
+
+  .header {
+position: fixed;
+background-color: #36679952;
+top: 0;
+left: 0;
+right: 0;
+  }
+
+  .content {
+    padding-top:125px;
   }
 }
