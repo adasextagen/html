@@ -73,7 +73,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display: none;
 }
 
 .header nav ul {
@@ -107,15 +107,18 @@ h1, h2, h3, p{
     width: 100%;
   }
 
-  ul{
-    display:none;
-    }
-  
-  p{
-    text-align: justify;
+  .header .mobile-menu{
+    float: left;
+    display: block;
   }
 
-  h1,h3{
-    text-align: center;
+  .header nav ul {
+    display: none;
+  }
+
+  .footer ul li{
+    display: block;
+    float:left;
+    margin-left: 16px;
   }
 }
