@@ -21,11 +21,6 @@ time, mark, audio, video {
   text-decoration: none
 }
 
-/* 
-font-family: 'Germania One', cursive;
-font-family: 'Raleway', sans-serif;
-*/
-
 body{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -73,7 +68,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display: none;
 }
 
 .header nav ul {
@@ -102,6 +97,7 @@ h1, h2, h3, p{
   margin-top: 32px;
 }
 
+/* MEDIA QUERY PARA PANTALLAS ANCHO MAX 600px */
 @media only screen and (max-width: 600px) {
   .content, .side-bar {
     width: 100%;
@@ -109,7 +105,6 @@ h1, h2, h3, p{
 
   .header nav ul{
     display: none;
-
   }
 
   .header{
@@ -131,7 +126,12 @@ h1, h2, h3, p{
   .header .mobile-menu+ul{
     display: block;
     position: fixed;
-    top: 
+    /* top:  */
   }
   
+  .footer ul li{
+    display: block;
+    float:left;
+    margin-left: 16px;
+  }
 }
