@@ -102,8 +102,13 @@ h1, h2, h3, p{
   margin-top: 32px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .content, .side-bar {
     width: 100%;
   }
+  .logo{
+    color: green;
+  }
+
+  
 }
