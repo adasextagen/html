@@ -105,5 +105,12 @@ h1, h2, h3, p{
 @media only screen and (max-width: 600px) {
   .content, .side-bar {
     width: 100%;
+
+  }
+  h1 {width: 12px;
+
+  }
+  .header nav ul a:{
+    display: none;
   }
 }
