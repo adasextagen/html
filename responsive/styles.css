@@ -110,6 +110,18 @@ h1, h2, h3, p{
   .header nav ul li {
     display: none;
   }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
+
+  .content {
+    margin-top: 125px;
+  }
 }
 
 @media screen and (min-width: 601px) {
