@@ -73,7 +73,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display: none;
 }
 
 .header nav ul {
@@ -122,10 +122,9 @@ h1, h2, h3, p{
   .content {
     margin-top: 125px;
   }
-}
 
-@media screen and (min-width: 601px) {
-  a.mobile-menu {
-    display: none;
-  }
+  .footer ul li {
+    display: block;
+    float:left;
+    margin-left: 16px;
 }
