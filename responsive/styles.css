@@ -106,4 +106,32 @@ h1, h2, h3, p{
   .content, .side-bar {
     width: 100%;
   }
+
+  .header nav ul{
+    display: none;
+
+  }
+
+  .header{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+  }  
+  .content{
+    padding-top: 125px;
+  }
+
+  .header .mobile-menu{
+    display: block;
+  }
+
+  /* OJO CON ESTO QUE NO SIEMPRE FUNCIONA ES UN SELECTOR REBUSCADO
+   - NO ES UNA BUENA PRÁCTICA*/
+  .header .mobile-menu+ul{
+    display: block;
+    position: fixed;
+    top: 
+  }
+  
 }
