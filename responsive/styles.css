@@ -73,7 +73,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display: none;
 }
 
 .header nav ul {
@@ -106,9 +106,19 @@ h1, h2, h3, p{
   .content, .side-bar {
     width: 100%;
   }
-  .logo{
-    color: green;
+
+  .header .mobile-menu{
+    float: left;
+    display: block;
   }
 
-  
+  .header nav ul {
+    display: none;
+  }
+
+  .footer ul li{
+    display: block;
+    float:left;
+    margin-left: 16px;
+  }
 }
