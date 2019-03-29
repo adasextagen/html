@@ -116,6 +116,10 @@ h1, h2, h3, p{
     display: none;
   }
 
+  h3{
+    margin-top: 40px;
+  }
+
   .footer ul li{
     display: block;
     float:left;
