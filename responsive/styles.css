@@ -73,7 +73,7 @@ h1, h2, h3, p{
 }
 
 .header .mobile-menu{
-  float: left;
+  display: none;
 }
 
 .header nav ul {
@@ -110,7 +110,19 @@ h1, h2, h3, p{
   h1 {width: 12px;
 
   }
-  .header nav ul a:{
+
+  .header .mobile-menu{
+    float: left;
+    display: block;
+  }
+
+  .header nav ul {
     display: none;
+  }
+
+  .footer ul li{
+    display: block;
+    float:left;
+    margin-left: 16px;
   }
 }
