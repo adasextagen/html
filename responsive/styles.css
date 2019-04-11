@@ -25,6 +25,7 @@ body{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 24px;
+  background-color: #f8c0f1;
 }
 
 h1, h2, h3 {
@@ -81,20 +82,58 @@ h1, h2, h3, p{
   margin-left: 16px;
 }
 
-.content{
-  width: 65%;
-  float: left;
+h1{
+  text-align: center;
 }
 
-.side-bar{
-  width: 30%;
-  float: right;
+.content{
+  width: 95%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
 }
+
+.content .column1, .content .column2, .content .column3, .content .column4{
+  padding: 1% 1%;
+  margin: 0 3%;
+  line-height: 30vh;
+}
+.content div:nth-child(odd){
+  border: solid 1px purple;
+  background-color: aquamarine;
+  color: purple;
+}
+
+.content div:nth-child(even){
+  border: solid 1px aqua;
+  background-color: purple;
+  color: aqua;
+  font-weight: bold;
+}
+
 
 .footer {
   padding: 32px 0;
-  background-color: #333;
+  background-color: #83617d;
   margin-top: 32px;
+}
+
+.footer ul{
+  text-align: center;
+}
+
+.footer ul li{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+.footer li a{
+
+  color: #ffffff;
+  font-weight: bold;
 }
 
 /* MEDIA QUERY PARA PANTALLAS ANCHO MAX 600px */
